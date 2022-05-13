@@ -1,37 +1,16 @@
-.coffee {
-  background-color: pink;
-  padding: 0 10vw;
+@import "index-style.scss";
+@import "header_and_footer.scss";
+@import "coffee.scss";
 
-  &__intro {
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
+$color-header: rgb(248, 248, 250);
+$color-footer: rgb(52, 58, 64);
 
-    h1 {
-      font-size: 20px;
-    }
-    &__description {
-      font-size: 16px;
-    }
-    &__grams {
-      font-size: 10px;
-    }
-  }
+* {
+  box-sizing: border-box;
+}
 
-  &__product {
-    background-color: lightgreen;
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-
-    h4 {
-      margin-left: 1vw;
-    }
-
-    &__bags__text {
-      margin-left: 1vw;
-      display: flex;
-      flex-direction: column;
-    }
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,75 @@
+$color-header: rgb(248, 248, 250);
+$color-footer: rgb(52, 58, 64);
+
+.coffee {
+  padding: 0 10vw;
+  margin-bottom: 15vh;
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 2vw;
+
+    h1 {
+      margin-left: 2vw;
+      font-size: 20px;
+    }
+    &__description {
+      font-size: 16px;
+    }
+    &__grams {
+      font-size: 10px;
+    }
+  }
+
+  &__product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__bags {
+      background-color: $color-header;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 40%;
+      border-bottom: 15px solid white;
+      border-radius: 10%;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+      }
+
+      &__image {
+        max-width: 100%;
+        max-height: 100%;
+        border-top: solid 5px darkgray;
+      }
+
+      &__bags__text {
+        margin-left: 1vw;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.coffee__product__bags__image {
+  max-width: 100%;
+  max-height: 100%;
+  border-top: solid 5px darkgray;
+}
+
+h4 {
+  margin-left: 2vw;
+  height: 3vh;
+  font-size: 24px;
+}
+p {
+  margin-left: 2vw;
+}

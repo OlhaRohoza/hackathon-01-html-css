@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.index_about-cafe,
+.index_about-us,
+.index__map {
+    margin-top: 10px;
+    padding: 0 15em;
+
+    @media (max-width: 768px) {
+        padding: 0;
+        margin: 15px;
+    }
+}
+
+
+.index_about-cafe img {
+    width: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.index_about-us {
+    display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    .index_about-us--part {
+        padding-right: 4em;
+    }
+}
+
+iframe {
+    width: 100%;
+    position: relative;
+    bottom: -2em;
+}
