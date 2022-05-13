@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-main {
-    margin-top: 10px;
-    padding: 0 15em;
+.menu__main {
+    padding: 0 20%;
 
     @media (max-width: 768px) {
         padding: 0;
@@ -20,13 +20,23 @@ h1 {
     text-align: start;
 }
 
+
+
 .menu_part-one {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
     .coffee-part {
         width: 45%;
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
     }
 
     .menu_price {
@@ -36,8 +46,19 @@ h1 {
 
 }
 
-.menu__hidden-mobile {
+.menu_hidden {
+    display: block;
+    width: 100%;
+
+
     @media (max-width: 768px) {
-        display: hidden;
+        display: none;
     }
+}
+
+.menu__image {
+    width: 100%;
+    position: relative;
+    bottom: -30px;
+
 }
