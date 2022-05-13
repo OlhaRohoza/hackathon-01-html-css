@@ -1,0 +1,24 @@
+$color-header: rgb (248, 249, 250);
+$color-footer: darkblue;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: $color-header;
+
+
+
+}
+
+.footer {
+    background-color: $color-footer;
+}
