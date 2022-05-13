@@ -41,16 +41,17 @@ footer {
     color: white;
 
     .footer__navigation {
-
         padding: 20px 0;
 
         a {
             color: rgb(76, 0, 255);
+            padding: 0 15px;
         }
 
         .footer__navigation__link--this_page {
             color: white;
             text-decoration: none;
+
         }
     }
 
