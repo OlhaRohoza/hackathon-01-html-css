@@ -8,6 +8,7 @@ body {
 .index_about-us,
 .index__map {
   padding: 0 10vw;
+  margin-top: 6vh;
 
   @media (max-width: 768px) {
     padding: 0;
@@ -40,4 +41,10 @@ iframe {
   width: 100%;
   position: relative;
   bottom: -2vh;
+}
+h1 {
+  margin: 3vh 0;
+}
+h2 {
+  margin: 4vh 0;
 }
