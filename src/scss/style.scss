@@ -1,3 +1,6 @@
+@import 'index-style.scss';
+@import "header_and_footer.scss";
+
 $color-header: rgb(248, 248, 250);
 $color-footer: darkblue;
 
@@ -14,37 +17,6 @@ body {
 }
 
 
-.header {
-    padding: 0 15em;
-
-    @media (max-width: 768px) {
-        padding: 0;
-    }
-}
-
-.header {
-    background-color: $color-header;
-    min-height: 5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    img {
-        height: 5em;
-    }
-
-    .header__navigation__link {
-        text-decoration: none;
-        color: black;
-        padding-right: 15px;
-
-        &--this_page {
-            font-weight: 700;
-        }
-
-    }
-}
-
-.footer {
-    background-color: $color-footer;
+.index_about-cafe {
+    background-color: pink;
 }
