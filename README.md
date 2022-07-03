@@ -1,4 +1,4 @@
-![CSS3_and_HTML5_logos_and_wordmarks svg](https://user-images.githubusercontent.com/104372730/177031081-fac676f4-44cd-40dc-ac6a-da8a99a3a853.png)
+![CSS3_and_HTML5_logos_and_wordmarks svg](https://user-images.githubusercontent.com/104372730/177031081-fac676f4-44cd-40dc-ac6a-da8a99a3a853.png | width=100)
 
 # generic-hipster-coffee
 
