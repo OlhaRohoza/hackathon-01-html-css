@@ -1,3 +1,4 @@
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/320px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" width="400"></a></p>
 
 # generic-hipster-coffee
 
