@@ -4,6 +4,7 @@
 
 ![](https://img.shields.io/badge/Code-HTML-blue)
 ![](https://img.shields.io/badge/Code-CSS-blue)
+![](https://img.shields.io/badge/Code-JavaScript-blue)
 
 - create the required website based on provided PSD using HTML + SCSS.
 - test your site in different browsers and screen sizes.
